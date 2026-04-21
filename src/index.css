@@ -1,0 +1,19 @@
+/* src/index.css */
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary-500: #6366f1;
+  --color-primary-600: #4f46e5;
+  --color-surface-light: #f8fafc;
+  --color-surface-dark: #0f172a;
+  --color-text-main: #1e293b;
+  --color-text-muted: #64748b;
+}
+
+@layer base {
+  body {
+    @apply bg-surface-light text-text-main dark:bg-surface-dark dark:text-gray-200 transition-colors duration-300;
+  }
+}
