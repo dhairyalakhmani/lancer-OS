@@ -1,6 +1,6 @@
 # LancerOS – Professional Freelance Management Suite
 
-**LancerOS** is a comprehensive, full-stack SaaS application designed specifically for independent contractors and freelancers to manage the entire lifecycle of their business. From client onboarding and project tracking via a Kanban-style interface to dynamic financial invoicing and real-time business analytics, LancerOS serves as a centralized "Operating System" for professional productivity.
+**LancerOS** is a comprehensive, SaaS application designed specifically for independent contractors and freelancers to manage the entire lifecycle of their business. From client onboarding and project tracking via a Kanban-style interface to dynamic financial invoicing and real-time business analytics, LancerOS serves as a centralized "Operating System" for professional productivity.
 
 ---
 
@@ -81,6 +81,7 @@ VITE_FIREBASE_APP_ID=your_app_id
 Bash
 npm run dev
 The application will be available at http://localhost:5173.
+```
 
 5. Build for Production
 Bash
