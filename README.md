@@ -98,4 +98,5 @@ Billing: Open the Invoices page. Create a new invoice, add multiple line items w
 Analytics: Check the Dashboard to see your revenue pie chart and activity feed update automatically once an invoice is marked as "Paid".
 Author: Dhairya Lakhmani
 Version: 1.0.0
-License: MIT
+Institute: Scaler School of Technology
+
