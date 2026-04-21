@@ -83,20 +83,22 @@ npm run dev
 The application will be available at http://localhost:5173.
 ```
 
-5. Build for Production
-Bash
+### 5. Build for Production
+``` bash
 npm run build
 firebase deploy
-📖 Usage Guide
-Authentication: Sign in using your Google account. Your data is isolated and visible only to you.
+```
+### 📖 Usage Guide
+1) Authentication: Sign in using your Google account. Your data is isolated and visible only to you.
 
-Onboarding: Navigate to the Clients page to add your first corporation or client.
+2) Onboarding: Navigate to the Clients page to add your first corporation or client.
 
-Task Management: Go to the Tasks board. Create a task and drag it across columns as your work progresses.
+3) Task Management: Go to the Tasks board. Create a task and drag it across columns as your work progresses.
 
-Billing: Open the Invoices page. Create a new invoice, add multiple line items with rates/quantities, and save.
+4) Billing: Open the Invoices page. Create a new invoice, add multiple line items with rates/quantities, and save.
 
-Analytics: Check the Dashboard to see your revenue pie chart and activity feed update automatically once an invoice is marked as "Paid".
+5) Analytics: Check the Dashboard to see your revenue pie chart and activity feed update automatically once an invoice is marked as "Paid".
+
 Author: Dhairya Lakhmani
 Version: 1.0.0
 Institute: Scaler School of Technology
